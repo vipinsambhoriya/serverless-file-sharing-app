@@ -1,0 +1,9 @@
+serverless-file-sharing-app/
+│── README.md   # (the documentation we made)
+│── lambda_function.py   # your Lambda code
+│── architecture.png     # (if you add diagram later)
+│── screenshots/         # (your captured screenshots)
+│     ├── s3_upload.png
+│     ├── dynamodb_entry.png
+│     ├── email_notification.png
+│     └── cloudwatch_logs.png
