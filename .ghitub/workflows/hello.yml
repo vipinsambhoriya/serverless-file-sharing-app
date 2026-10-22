@@ -1,0 +1,18 @@
+---
+#This is workflow na
+name: Hello
+on:
+  push:
+    branches:
+      - main
+    # these are jobs inside the workflow
+    jobs: null
+    #This is the name of jobs
+    greet:
+    # This is github runner
+      run-on: ubuntu-latest
+      steps:
+        - name: say hello to user
+          run: echo "Hello Dosto"
+        - name: say hello to username
+          run: echo "Hello $USER"
